@@ -11,7 +11,7 @@ public class numArray {
 		int [] numeros = new int [10];
 		array(numeros);
 		printArray(numeros);
-		ordena(numeros);
+		order(numeros);
 		
 		
 	}
@@ -27,7 +27,7 @@ public class numArray {
 		}
 		System.out.println("\n");
 	}
-	public static void ordena(int[] numeros){
+	public static void order(int[] numeros){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escoge como desea ordenr el array");
 		System.out.println("1. Desc ");
